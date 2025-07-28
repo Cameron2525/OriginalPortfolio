@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
@@ -26,8 +26,6 @@
               <ul class="menu">
                   <li><a href="#home" class="menu-btn">Home</a></li>
                   <li><a href="#about" class="menu-btn">About</a></li>
-                  <li><a href="#tech-stack" class="menu-btn">Tech Stack</a></li>
-                  <li><a href="#skills" class="menu-btn">Skills</a></li>
                   <li><a href="#projects" class="menu-btn">Projects</a></li>
                   <li><a href="#contact" class="menu-btn">Contact</a></li>
               </ul>
@@ -56,7 +54,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Cameron Slabbert and I'm a <span class="typing-2"></span></div>
-                    <p>Hey there! I am a junior developer based in Cape Town, Kenilworth. I'm currently doing a learnership at Connect Solutions to gain more experience in the web development field.</p>
+                    <p>Howzit! I’m a junior developer based in Kenilworth, Cape Town, and I’m here to bring some serious skills to the table. I’ve been working hard, mastering the ins and outs of WordPress, HTML, CSS, and JavaScript, while also flexing my creative side with Figma to design clean and lekker UX/UI mockups. My journey hasn’t always been smooth, but I’ve learned how to dig deep, push through, and make things happen, even when times get tough. Those challenges have only made me work harder. I’m not your average ou—what sets me apart is the hustle, passion, and drive to create something functional and visually skrik vir niks. My background has taught me the importance of perseverance and delivering top-quality work, no matter the project. Let’s create something solid and unique together.</p>
                     <a href="#" id="downloadCvButton">SEE CV</a>
 
                     <div id="cvModal" style="display:none;">
@@ -70,63 +68,169 @@
             </div>
         </div>
     </section>
-    
+<!-- Add this in your <head> -->
+
+<!-- Tech Stack Section -->
 <section class="services" id="services">
-    <div class="max-width">
-        <h2 class="title">Tech Stack</h2>
-        <div class="serv-content">
-            <!-- Card for HTML -->
-            <div class="card">
-                <div class="box">
-                    <img src="https://i.ibb.co/F68JmtC/html.png" alt="HTML Logo" class="tech-logo">
-                    <div class="text">HTML</div>
-                    <p>Building the foundation of web pages with clean, semantic HTML, ensuring content is well-structured and accessible for all users.</p>
-                </div>
-            </div>
-            <!-- Card for CSS -->
-            <div class="card">
-                <div class="box">
-                    <img src="https://i.ibb.co/wCN2qGm/css3.png" alt="CSS Logo" class="tech-logo">
-                    <div class="text">CSS</div>
-                    <p>Creating responsive, visually engaging designs with modern CSS techniques, including Flexbox, Grid, and custom animations for a great user experience.</p>
-                </div>
-            </div>
-            <!-- Card for JavaScript -->
-            <div class="card">
-                <div class="box">
-                    <img src="https://i.ibb.co/r5p4ZHP/java-script.png" alt="JavaScript Logo" class="tech-logo">
-                    <div class="text">JavaScript</div>
-                    <p>Bringing web pages to life with JavaScript, enabling dynamic, interactive elements and enhancing user engagement through advanced scripting.</p>
-                </div>
-            </div>
+  <div class="max-width">
+    <h2 class="title">Tech Stack</h2>
+    <div class="serv-content">
+
+      <!-- Figma -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-brands fa-figma fa-3x" style="color: #A259FF; margin-bottom: 15px;"></i>
+          <div class="text">Figma</div>
+          <p>Designing user-friendly and visually appealing interfaces and prototypes using Figma.</p>
         </div>
+      </div>
+
+      <!-- HTML -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-brands fa-html5 fa-3x" style="color: #e34c26; margin-bottom: 15px;"></i>
+          <div class="text">HTML</div>
+          <p>Building clean, semantic web page foundations with HTML.</p>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-brands fa-js fa-3x" style="color: #f0db4f; margin-bottom: 15px;"></i>
+          <div class="text">JavaScript</div>
+          <p>Creating dynamic, interactive web experiences using JavaScript.</p>
+        </div>
+      </div>
+
+      <!-- WordPress -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-brands fa-wordpress fa-3x" style="color: #21759b; margin-bottom: 15px;"></i>
+          <div class="text">WordPress</div>
+          <p>Developing and customizing websites with WordPress CMS.</p>
+        </div>
+      </div>
+
+      <!-- Visual Studio -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-solid fa-code fa-3x" style="color: #0078d7; margin-bottom: 15px;"></i>
+          <div class="text">Visual Studio</div>
+          <p>Writing and debugging code efficiently in Visual Studio.</p>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="card">
+        <div class="box">
+          <i class="fa-brands fa-css3-alt fa-3x" style="color: #264de4; margin-bottom: 15px;"></i>
+          <div class="text">CSS</div>
+          <p>Styling websites using modern CSS techniques including Flexbox and Grid.</p>
+        </div>
+      </div>
+
     </div>
+  </div>
 </section>
-<section id="skills" class="skills-section">
-    <div class="max-width">
-        <h2 class="title">My Skills</h2>
-        <h3 class="subtitle">--Skills I Provide--</h3>
-        <div class="skills-content">
-            <div class="skill">
-                <span class="skill-name">HTML</span>
-                <div class="skill-bar">
-                    <div class="progress-bar html-bar"></div>
-                </div>
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="max-width">
+    <h2 class="title">My Skills</h2>
+    <div class="serv-content">
+
+      <!-- Skill Item -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full">
+              <div class="fill html-fill"></div>
             </div>
-            <div class="skill">
-                <span class="skill-name">CSS</span>
-                <div class="skill-bar">
-                    <div class="progress-bar css-bar"></div>
-                </div>
+            <div class="mask half">
+              <div class="fill html-fill"></div>
             </div>
-            <div class="skill">
-                <span class="skill-name">JavaScript</span>
-                <div class="skill-bar">
-                    <div class="progress-bar js-bar"></div>
-                </div>
+            <div class="inside-circle">
+              <i class="fa-brands fa-html5 fa-2x" style="color:#e34c26;"></i>
+              <div class="skill-label">HTML<br>90%</div>
             </div>
-        </div>      
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for other skills -->
+      <!-- CSS -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full"><div class="fill css-fill"></div></div>
+            <div class="mask half"><div class="fill css-fill"></div></div>
+            <div class="inside-circle">
+              <i class="fa-brands fa-css3-alt fa-2x" style="color:#264de4;"></i>
+              <div class="skill-label">CSS<br>85%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full"><div class="fill js-fill"></div></div>
+            <div class="mask half"><div class="fill js-fill"></div></div>
+            <div class="inside-circle">
+              <i class="fa-brands fa-js fa-2x" style="color:#f0db4f;"></i>
+              <div class="skill-label">JavaScript<br>75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Figma -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full"><div class="fill figma-fill"></div></div>
+            <div class="mask half"><div class="fill figma-fill"></div></div>
+            <div class="inside-circle">
+              <i class="fa-brands fa-figma fa-2x" style="color:#A259FF;"></i>
+              <div class="skill-label">Figma<br>80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WordPress -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full"><div class="fill wp-fill"></div></div>
+            <div class="mask half"><div class="fill wp-fill"></div></div>
+            <div class="inside-circle">
+              <i class="fa-brands fa-wordpress fa-2x" style="color:#21759b;"></i>
+              <div class="skill-label">WordPress<br>70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual Studio -->
+      <div class="skill-circle">
+        <div class="circle-wrap">
+          <div class="circle">
+            <div class="mask full"><div class="fill vs-fill"></div></div>
+            <div class="mask half"><div class="fill vs-fill"></div></div>
+            <div class="inside-circle">
+              <i class="fa-solid fa-code fa-2x" style="color:#0078d7;"></i>
+              <div class="skill-label">VS Code<br>75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 </section>
 <section class="projects" id="projects">
     <div class="max-width">
@@ -137,8 +241,8 @@
                     <img src="https://i.ibb.co/MhfZLhS/Screenshot-2024-10-01-155946.png" alt="Tribute Page">
                     <div class="text">Tribute Page</div>
                     <p>A tribute page showcasing a notable person.</p>
-                    <a href="https://cameron2525.github.io/Tribut-Page/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/cameron2525/Tribut-Page" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Tribut-Page/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/cameron2525/Tribut-Page" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
             <div class="card">
@@ -146,8 +250,8 @@
                     <img src="https://i.ibb.co/S6mq3jz/Screenshot-2024-10-02-103552.png" alt="Job Application Form">
                     <div class="text">Job Application Form</div>
                     <p>An interactive job application form for users.</p>
-                    <a href="https://cameron2525.github.io/Job-Application-Form/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/cameron2525/Job-Application-Form" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Job-Application-Form/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/cameron2525/Job-Application-Form" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
             <div class="card">
@@ -155,8 +259,8 @@
                     <img src="https://i.ibb.co/v1yTBq2/Screenshot-2024-10-01-160947.png" alt="Landing Page">
                     <div class="text">Landing Page (MK1 Rabbit Stance)</div>
                     <p>A responsive landing page designed for a specific theme.</p>
-                    <a href="https://cameron2525.github.io/Landing-Page-mk1-stance/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/cameron2525/Landing-Page-mk1-stance" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Landing-Page-mk1-stance/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/cameron2525/Landing-Page-mk1-stance" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
             <div class="card">
@@ -164,8 +268,8 @@
                     <img src="https://i.ibb.co/hcHGrmS/Screenshot-2024-10-02-103526.png" alt="Technical Documentation Page">
                     <div class="text">Technical Documentation Page</div>
                     <p>A well-structured documentation page for developers.</p>
-                    <a href="https://cameron2525.github.io/Technical-Documentation-Page/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/cameron2525/Technical-Documentation-Page" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Technical-Documentation-Page/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/cameron2525/Technical-Documentation-Page" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
             <div class="card">
@@ -173,8 +277,8 @@
                     <img src="https://i.ibb.co/x5KZPyy/Screenshot-2024-10-25-134309.png" alt="Project 5">
                     <div class="text">Personal Portfolio first Project</div>
                     <p>Brief description of Project 5.</p>
-                    <a href="https://cameron2525.github.io/Personal-Portfolio/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/Cameron2525/Personal-Portfolio" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Personal-Portfolio/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/Cameron2525/Personal-Portfolio" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
             <div class="card">
@@ -182,8 +286,8 @@
                     <img src="https://i.ibb.co/f4xxvMv/Screenshot-2024-10-02-110031.png" alt="Project 6">
                     <div class="text">Palindrome-Checker</div>
                     <p>Brief description of Project 6.</p>
-                    <a href=" https://cameron2525.github.io/Palindrome-Checker/" target="_blank" class="btn">View Project</a>
-                    <a href="https://github.com/Cameron2525/Palindrome-Checker" target="_blank" class="btn">🐱View Code</a>
+                    <a href="https://cameron2525.github.io/Palindrome-Checker/" target="_blank" class="btn btn-blue">View Project</a>
+                    <a href="https://github.com/Cameron2525/Palindrome-Checker" target="_blank" class="btn btn-blue">🐱View Code</a>
                 </div>
             </div>
         </div>
@@ -247,13 +351,25 @@
         </div>
     </section>
     <footer>
+      <div class="max-width">
+        <h2 class="title">Follow me</h2>
         <div class="social-links">
-            <a href="https://github.com/Cameron2525" target="_blank"><img src="https://i.ibb.co/f1H8T0j/github-6980894-960-720.webp" alt="Link 1"></a>
-            <a href="https://x.com/CJuniorwb" target="_blank"><img src="https://i.ibb.co/Db7WbKc/Screenshot-2024-10-28-084608.png"  alt="Link 2"></a>
-            <a href="https://www.linkedin.com/in/cameron-slabbert-776a1a333/" target="_blank"><img src="https://i.ibb.co/F3NjyM6/6bab3017350ca04c6fa05569672bd31e.jpg" alt="Link 3"></a>
-            <a href="https://www.facebook.com/profile.php?id=61566363845684" target="_blank"><img src="https://i.ibb.co/yXrXfCc/facebook.png"  alt="Link 4"></a>
+          <a href="https://github.com/Cameron2525" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/cameron-slabbert-776a1a333/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61566363845684" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/cameron_slabbert/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@CameronSlabbert" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@cameron_slabbert" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="https://x.com/CJuniorwb" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.discord.com/users/2525" target="_blank"><i class="fab fa-discord"></i></a>
+          <a href="https://www.twitch.tv/cameron_slabbert" target="_blank"><i class="fab fa-twitch"></i></a>
+          <a href="https://www.reddit.com/user/Cameron2525" target="_blank"><i class="fab fa-reddit"></i></a>
+          <a href="https://www.whatsapp.com/send?phone=27794987064" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.snapchat.com/add/cameron_slabbert" target="_blank"><i class="fab fa-snapchat"></i></a>
+          <a href="https://www.pinterest.com/cameronslabbert/" target="_blank"><i class="fab fa-pinterest"></i></a>
         </div>
         <span>Created By <a href="https://github.com/Cameron2525">Cameron Slabbert</a></span>
+      </div>
     </footer>
     <script src="script.js"></script>
 </body>
